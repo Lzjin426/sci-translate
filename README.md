@@ -55,8 +55,20 @@ sci-translate/
     └── submission-checklist.md
 ```
 
+## 文件分层职责（为什么不全写在 SKILL.md）
+
+- `SKILL.md`：定义技能的核心行为规范（何时用、怎么做、硬约束、默认输出格式）。内容应稳定、简洁、可长期复用。
+- `references/prompt-templates.md`：存放可直接复用的调用模板，便于按场景快速粘贴和迭代。
+- `references/submission-checklist.md`：存放交付前 QA 清单，作为最终验收步骤，避免翻译时漏检。
+
+这种分层的意义：
+
+- 降低上下文负担：核心规则不被长模板和长清单淹没。
+- 便于维护：规则、模板、验收标准可独立更新，不相互污染。
+- 便于协作：不同角色可只关注自己需要的层（写作人看模板，审校人看清单）。
+- 便于复用：同一套技能规则可搭配多个模板和检查清单。
+
 ## 参考文件
 
 - `references/prompt-templates.md`：整篇翻译 / 分段翻译 / 终稿收紧模板
 - `references/submission-checklist.md`：投稿前一致性与风险检查清单
-

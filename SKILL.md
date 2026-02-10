@@ -100,6 +100,22 @@ Always record the choice in `Terminology Table`.
 - Remove colloquial or marketing phrasing.
 - Avoid over-strong claims unless evidence supports them.
 
+## Reference-Style Adaptation Policy
+
+When users ask to follow a specific paper style (e.g., Kim et al.), treat it as a reusable style reference, not a strict template.
+
+- Priority order: target journal instructions > discipline conventions > reference paper style.
+- Prefer `result/action first, reason second` when this improves clarity; do not distort the original causal meaning.
+- Default to `one sentence, one primary claim`; allow denser compound sentences only when method detail requires it.
+- Do not ban first person absolutely. Use first person only if needed for clarity and accepted by target journal style.
+- Match claim strength to evidence:
+  - limited evidence: `suggest`, `indicate`
+  - consistent patterns: `show`, `demonstrate`
+  - strong verification: `confirm`, `validate`
+- Use transition markers only at real logic pivots; avoid repetitive connector stacking.
+- Follow target journal formatting for numbers, units, percentages, dashes, and symbol spacing.
+- Mimic structure and tone, but do not copy long lexical sequences from the reference paper.
+
 ## Anti-AI Voice Pass
 
 Before final output, run one extra pass to reduce "AI-translated" style:
